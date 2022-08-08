@@ -7,8 +7,8 @@ import cv2
 # input_images = glob.glob("./Desktop/notelove-portrait-editor/input/*.jpeg") + glob.glob("./Desktop/notelove-portrait-editor/input/*.jpg")
 
 # testing paths
-# icon_file = glob.glob("./icons/*.png")
-# input_images = glob.glob("./input/*.jpeg") + glob.glob("./input/*.jpg")
+icon_file = glob.glob("./icons/*.png")
+input_images = glob.glob("./input/*.jpeg") + glob.glob("./input/*.jpg")
 
 icons = ["SKIP INSTRUMENT"]
 for current_file in icon_file:
